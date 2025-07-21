@@ -1,0 +1,74 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hello", "Hey", "Good morning", "Good evening"],
+      "responses": ["Hello! How can I assist you today?", "Hi there! Need any help with college info?"]
+    },
+    {
+      "tag": "admission",
+      "patterns": ["How can I apply?", "What is the admission process?", "Is admission open?", "How to get admission?"],
+      "responses": ["You can apply online via our college portal. Visit: https://jdcoem.ac.in/admissions/ for details."]
+    },
+    {
+      "tag": "courses_offered",
+      "patterns": ["Which courses are offered?", "What courses do you have?", "List of departments?"],
+      "responses": ["We offer B.Tech in CSE, AI, IT, ECE, MBA, and MCA programs. More details on our website."]
+    },
+    {
+      "tag": "exam_schedule",
+      "patterns": ["When are the exams?", "Exam time table?", "Final exams dates?"],
+      "responses": ["The exam schedule will be uploaded to the student portal. Usually, semester exams are held in May and December."]
+    },
+    {
+      "tag": "fees_structure",
+      "patterns": ["What is the fees for BTech?", "Tell me the fee structure", "Course fees?"],
+      "responses": ["The B.Tech course fee is ₹90,000 per year. You can check the full fee structure here: https://jdcoem.ac.in/admissions/"]
+    },
+    {
+      "tag": "hostel_facilities",
+      "patterns": ["Do you have hostel?", "Hostel fees?", "Is hostel available for girls?", "Tell me about hostel"],
+      "responses": ["Yes, we offer separate hostels for boys and girls with Wi-Fi, mess, and laundry facilities. Hostel fees: ₹45,000 per semester."]
+    },
+    {
+      "tag": "placement_cell",
+      "patterns": ["Do you have placement support?", "How are the placements?", "Companies visiting the campus?"],
+      "responses": ["Yes! Our Placement Cell invites companies like TCS, Infosys, and Wipro. Last year, highest package was ₹12 LPA."]
+    },
+    {
+      "tag": "library_info",
+      "patterns": ["Is there a library?", "Library timing?", "Can we issue books?"],
+      "responses": ["Yes, our library is open from 9 AM to 7 PM. You can issue up to 3 books for 15 days."]
+    },
+    {
+      "tag": "canteen_facility",
+      "patterns": ["Is canteen available?", "Do you have food in college?", "What food is available?"],
+      "responses": ["Yes, our canteen offers hygienic meals, snacks, and beverages at affordable prices."]
+    },
+    {
+      "tag": "attendance_policy",
+      "patterns": ["What is the attendance rule?", "Minimum attendance?", "Is 75% attendance compulsory?"],
+      "responses": ["Yes, a minimum of 75% attendance is mandatory to appear in final exams."]
+    },
+    {
+      "tag": "contact_info",
+      "patterns": ["How can I contact the college?", "Phone number?", "College email address?"],
+      "responses": ["You can call us at +91-9011010038 or email admission@jdcoem.ac.in"]
+    },
+    {
+      "tag": "farewell_event",
+      "patterns": ["When is the farewell?", "Are we having a farewell this year?", "Farewell date?"],
+      "responses": ["The farewell event will be in April. Date and theme will be announced soon."]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Good, thanks!"],
+      "responses": ["You're welcome!", "Glad to help you!", "Any time 🙂"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "Goodbye", "See you", "Talk later"],
+      "responses": ["Goodbye! Have a great day!", "See you soon! Take care!"]
+    }
+  ]
+}
